@@ -183,11 +183,7 @@ article> * {
 	padding: 1rem 1.5rem;
 }
 
-article> div{
 
-	flex-direction: column;
-
-}
 
 article > div > h3{
 
@@ -262,7 +258,6 @@ section[role=recommandation] h2{
 section[role=recommandation] article > aside{
 
 	display: flex;
-	float: left;
 	margin: 0px 0 0 0;
 	flex-direction: column;
 	line-height: 120%;
@@ -276,7 +271,6 @@ section[role=recommandation] article > aside{
 section[role=recommandation] article > div{
 
 	display: flex;
-	float: lright;
 	margin: 20px 0 0 30px;
 	flex-direction: column;
 	line-height: 120%;
