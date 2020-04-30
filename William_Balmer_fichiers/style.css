@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+	font-family:"ambleregular", sans-serif;
+	font-size:1em;
+}
+
+
+body{
+	width: 1140px;
+	margin: 0 auto !important;
+
+}
+
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	padding: 0px 40px 0 40px;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+
+div[role=aside]{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(230, 184, 0);
+	width: 25%;
+	flex-grow: 1;
+}
+img{
+	
+	border:2px solid rgba(255,255,0,0.3);
+	color: rgba(3, 3, 3, 0.1);
+	border-radius: 50%;
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px ;
+	margin-bottom: 30px ;
+}
+
+
+
+section[role=contacte] > div > span{
+
+	font-size: 1em;
+	line-height: 95%;
+}
+
+section[role=contacte] > div >address{
+	font-size:1em;
+	line-height: 95%;
+	font-style: normal;
+}
+
+
+section[role=contacte] h2 {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(60,60,60);
+	color: rgb(230,184,0);
+
+}
+section[role=contacte] > div{
+	padding: 25px 20px 30px 45px;
+	display: flex;
+	flex-direction: column;
+}
+section[role=contacte] > div > * {
+	margin: 10px 0;
+
+
+}
+
+section[role=moi] h2 {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(60,60,60);
+	color: rgb(230,184,0);
+}
+section[role=moi] > div{
+	padding: 5px 45px;
+	display: flex;
+	flex-direction: column;
+}
+section[role=moi] > div > * {
+	margin: 10px 0;
+	line-height: 15px;
+
+}
+p[role=moi] {
+	text-align: justify;
+	font-size: 1em;
+	line-height:90%;
+}
+
+
+
+
+section[role=loisirs] h2 {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: rgb(60,60,60);
+	color: rgb(230,184,0);
+}
+section[role=loisirs] > div{
+	display: flex;
+	padding: 5px 15px;
+	display: flex;
+	justify-content: space-around;
+	color: rgb(60,60,60);
+
+}
+section[role=loisirs] > div > * {
+	margin: 10px 20px;
+
+
+}
+
+section[role=titre] h1{
+
+	font-size: 280%;
+	margin: auto;
+	padding: 30px 60px 0 0px;
+	font-weight: normal;
+
+}
+section[role=titre] > h1 > span{
+
+	color: rgb(230,184,0);
+	font-size: 100%;
+}
+section[role=titre] h2{
+
+	font-size: 160%;
+	margin: auto;
+	padding: 0px 0px ;
+	font-weight: normal;
+
+}
+section[role=titre] > h2 > span{
+
+	text-decoration: underline rgb(230,184,0);
+	font-size: 100%;
+
+}
+
+section[role=formation] h2{
+
+	font-size: 125%;
+	padding: 53px 80px 0px 0px;
+	font-weight: normal;
+	border-bottom: 2px solid rgb(230,184,0);
+
+}
+
+article [role=formation]{
+	display: flex;
+
+
+}
+
+article> * {
+	padding: 1rem 1.5rem;
+}
+
+article> div{
+
+	flex-direction: column;
+
+}
+
+article > div > h3{
+
+	font-size: 1.1em;
+	margin: 15px 30px 10px 30%;
+	
+
+}
+
+article > div > h4{
+
+	font-size: 1em;
+	padding: 0 0 0 30%;
+	
+
+}
+
+article > div > p{
+
+	text-align: left;
+	margin-left: 30%;
+	text-align: justify;
+
+}
+
+article> aside{
+
+	margin: 15px 0px;
+	float: left;
+	font-size: 0.8em;
+	flex-direction: column;
+
+}
+
+
+
+h2 .fas {
+
+	color: rgb(230,184,0);
+	padding: 0 20px 12px 0;
+}
+
+section[role=pro] h2{
+
+	font-size: 125%;
+	margin: auto;
+	padding: 53px 80px 0 0px;
+	font-weight: normal;
+	border-bottom: 2px solid rgb(230,184,0);
+
+}
+
+
+section[role=pro] article > div > p .fas {
+
+	color: rgb(230,184,0);
+	padding: 0 20px 12px 0;
+
+}
+
+
+section[role=recommandation] h2{
+
+	font-size: 125%;
+	margin: auto;
+	padding: 53px 80px 0 0px;
+	font-weight: normal;
+	border-bottom: 2px solid rgb(230,184,0);
+
+}
+
+section[role=recommandation] article > aside{
+
+	display: flex;
+	margin: 0px 0 0 0;
+	flex-direction: column;
+	line-height: 120%;
+	font-size: 90%;
+
+}
+
+
+
+
+section[role=recommandation] article > div{
+
+	display: flex;
+	margin: 20px 0 0 30px;
+	flex-direction: column;
+	line-height: 120%;
+	font-size: 90%;
+
+}
