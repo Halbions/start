@@ -26,9 +26,83 @@ div[role=aside]{
 	order: 2;
 }
 
-article> *{
 
+article > div > h4{
+
+	font-size: 1em;
+	padding: 0 0 0 0%;
+	
+}
+article > div > h3{
+
+	font-size: 1.25em;
+	padding: 0px 0px 0px 0%;
+	
+}
+article > div > p{
+
+	text-align: left;
+	margin-left: 0%;
+	text-align: left;
+
+}
+section[role=recommandation] article > aside{
+
+	display: flex;
+	margin: 0px 50px 0 ;
+	flex-direction: column;
+	line-height: 120%;
+	font-size: 90%;
+
+}
+section[role=recommandation] article > div{
+
+	display: flex;
+	margin: 0px 50px 0 ;
+	flex-direction: column;
+	line-height: 120%;
+	font-size: 90%;
+
+}
+article> aside{
+
+	margin: 15px 20%;
+	float: left;
+	font-size: 0.8em;
 	flex-direction: column;
 
+}
+section[role=pro] article> div{
 
+	margin: -40px 50px 50px 10%;
+
+}
+
+section[role=pro] article> div> h3{
+
+padding: 70px 100px 0px 0px;
+font-size: 1.3em;
+	
+}
+
+section[role=formation] article> div{
+
+	margin: -20px 100px -30px 10%;
+
+}
+section[role=pro] article> div{
+
+	margin: -10px 100px -30px 10%;
+
+}
+article>aside{
+	
+	margin: 20px 10px 10px 50px;
+	
+}
+
+article>div>h3{
+	
+	margin: 10px 10px 10px 0px;
+	
 }

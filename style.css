@@ -20,7 +20,7 @@
 body{
 	width: 1140px;
 	margin: 0 auto !important;
-
+	display: flex;
 }
 
 
@@ -95,15 +95,23 @@ section[role=moi] h2 {
 	text-align: center;
 	background: rgb(60,60,60);
 	color: rgb(230,184,0);
+	
 }
 section[role=moi] > div{
 	padding: 5px 45px;
 	display: flex;
 	flex-direction: column;
+	
+}
+section[role=moi]{
+	
+	flex-grow: 1;
+	
 }
 section[role=moi] > div > * {
 	margin: 10px 0;
 	line-height: 15px;
+	
 
 }
 p[role=moi] {
@@ -228,6 +236,16 @@ h2 .fas {
 
 	color: rgb(230,184,0);
 	padding: 0 20px 12px 0;
+}
+aside .fas {
+
+	color: rgb(230,184,0);
+	
+}
+aside .far {
+
+	color: rgb(230,184,0);
+	
 }
 
 section[role=pro] h2{

@@ -25,3 +25,19 @@ div[role=aside]{
 	order: 2;
 
 }
+
+section[role=recommandation] article > div > p{
+
+
+	text-align: left;
+	margin-left: 0%;
+	text-align: left;
+
+}
+
+section[role=recommandation] article > div > h4{
+
+	font-size: 1em;
+	padding: 0 0 0 0%;
+	
+}
