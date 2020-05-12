@@ -34,7 +34,7 @@ main {
 	flex-grow: 1;
 }
 
-div[role=aside]{
+div[class=aside]{
 	float: left;
 	display: flex;
 	flex-direction: column;
@@ -57,20 +57,20 @@ img{
 
 
 
-section[role=contacte] > div > span{
+section[class=contacte] > div > span{
 
 	font-size: 1em;
 	line-height: 95%;
 }
 
-section[role=contacte] > div >address{
+section[class=contacte] > div >address{
 	font-size:1em;
 	line-height: 95%;
 	font-style: normal;
 }
 
 
-section[role=contacte] h2 {
+section[class=contacte] h2 {
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
@@ -78,18 +78,18 @@ section[role=contacte] h2 {
 	color: rgb(230,184,0);
 
 }
-section[role=contacte] > div{
+section[class=contacte] > div{
 	padding: 25px 20px 30px 45px;
 	display: flex;
 	flex-direction: column;
 }
-section[role=contacte] > div > * {
+section[class=contacte] > div > * {
 	margin: 10px 0;
 
 
 }
 
-section[role=moi] h2 {
+section[class=moi] h2 {
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
@@ -97,24 +97,24 @@ section[role=moi] h2 {
 	color: rgb(230,184,0);
 	
 }
-section[role=moi] > div{
+section[class=moi] > div{
 	padding: 5px 45px;
 	display: flex;
 	flex-direction: column;
 	
 }
-section[role=moi]{
+section[class=moi]{
 	
 	flex-grow: 1;
 	
 }
-section[role=moi] > div > * {
+section[class=moi] > div > * {
 	margin: 10px 0;
 	line-height: 15px;
 	
 
 }
-p[role=moi] {
+p[class=moi] {
 	text-align: justify;
 	font-size: 1em;
 	line-height:90%;
@@ -123,14 +123,14 @@ p[role=moi] {
 
 
 
-section[role=loisirs] h2 {
+section[class=loisirs] h2 {
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
 	background: rgb(60,60,60);
 	color: rgb(230,184,0);
 }
-section[role=loisirs] > div{
+section[class=loisirs] > div{
 	display: flex;
 	padding: 5px 15px;
 	display: flex;
@@ -138,13 +138,13 @@ section[role=loisirs] > div{
 	color: rgb(60,60,60);
 
 }
-section[role=loisirs] > div > * {
+section[class=loisirs] > div > * {
 	margin: 10px 20px;
 
 
 }
 
-section[role=titre] h1{
+section[class=titre] h1{
 
 	font-size: 280%;
 	margin: auto;
@@ -152,12 +152,12 @@ section[role=titre] h1{
 	font-weight: normal;
 
 }
-section[role=titre] > h1 > span{
+section[class=titre] > h1 > span{
 
 	color: rgb(230,184,0);
 	font-size: 100%;
 }
-section[role=titre] h2{
+section[class=titre] h2{
 
 	font-size: 160%;
 	margin: auto;
@@ -165,14 +165,14 @@ section[role=titre] h2{
 	font-weight: normal;
 
 }
-section[role=titre] > h2 > span{
+section[class=titre] > h2 > span{
 
 	text-decoration: underline rgb(230,184,0);
 	font-size: 100%;
 
 }
 
-section[role=formation] h2{
+section[class=formation] h2{
 
 	font-size: 125%;
 	padding: 53px 80px 0px 0px;
@@ -181,7 +181,7 @@ section[role=formation] h2{
 
 }
 
-article [role=formation]{
+article [class=formation]{
 	display: flex;
 
 
@@ -243,8 +243,18 @@ aside .far {
 	color: rgb(230,184,0);
 	
 }
+.far{
+	
+	margin: 0px 10px 0px -23px
+	
+}
+.fa-circle{
+	
+	margin: 0px 10px 0px -23px
+	
+}
 
-section[role=pro] h2{
+section[class=pro] h2{
 
 	font-size: 125%;
 	margin: auto;
@@ -255,7 +265,7 @@ section[role=pro] h2{
 }
 
 
-section[role=pro] article > div > p .fas {
+section[class=pro] article > div > p .fas {
 
 	color: rgb(230,184,0);
 	padding: 0 20px 12px 0;
@@ -263,7 +273,7 @@ section[role=pro] article > div > p .fas {
 }
 
 
-section[role=recommandation] h2{
+section[class=recommandation] h2{
 
 	font-size: 125%;
 	margin: auto;
@@ -273,25 +283,13 @@ section[role=recommandation] h2{
 
 }
 
-section[role=recommandation] article > aside{
-
-	display: flex;
-	margin: 0px 0 0 0;
-	flex-direction: column;
-	line-height: 120%;
-	font-size: 90%;
-
+#global{
+  width:100%;
 }
-
-
-
-
-section[role=recommandation] article > div{
-
-	display: flex;
-	margin: 20px 0 0 30px;
-	flex-direction: column;
-	line-height: 120%;
-	font-size: 90%;
-
+#global #gauche {
+    float:left;
+    width:60%;
+}
+#global #droite {
+    margin-left:60%  
 }
