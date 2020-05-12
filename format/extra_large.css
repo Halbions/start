@@ -16,7 +16,7 @@ main {
 	order: 1;
 }
 
-div[role=aside]{
+div[class=aside]{
 	float: left;
 	display: flex;
 	flex-direction: column;
