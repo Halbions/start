@@ -21,6 +21,7 @@ body{
 	width: 1140px;
 	margin: 0 auto !important;
 	display: flex;
+	min-height: 100vh;
 }
 
 
@@ -263,6 +264,22 @@ section[class=pro] h2{
 	border-bottom: 2px solid rgb(230,184,0);
 
 }
+section[class=pro] article{
+  
+	padding: 40px 0px 40px 0px;
+
+}
+section[class=formation] article{
+  
+	padding: 40px 0px 30px 0px;
+
+}
+section[class=recommandation] article{
+  
+	padding: 30px 0px 40px 0px;
+
+}
+
 
 
 section[class=pro] article > div > p .fas {
