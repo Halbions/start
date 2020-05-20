@@ -50,11 +50,12 @@ article > div > p{
   width:100%;
 }
 #global #gauche {
-    margin: 10px 10px 50px 50px;
-    width:60%;
+    margin: 0px 10px 30px 50px;
+    width:100%;
 }
 #global #droite {
-     margin: 30px 100px 50px 50px;
+  margin: 0px 100px 30px 50px;
+	width:100%; 
 }
 article> aside{
 
@@ -96,5 +97,31 @@ article>aside{
 article>div>h3{
 	
 	margin: 10px 10px 10px 0px;
+	
+}
+
+section[class=formation] article{
+	
+	width: 100%;
+	
+}
+section[class=formation] article p{
+	
+	width: 150%;
+	margin: 0px 0px 0px 0px;
+	
+	
+}
+section[class=pro] article p{
+	
+	width: 150%;
+	margin: 0px 0px 0px 0px;
+	
+	
+}
+section[class=pro] article{
+	
+	width: 100%;
+	margin: 10px 10px 10px 10px;
 	
 }
