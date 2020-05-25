@@ -46,15 +46,20 @@ article > div > p{
 	text-align: left;
 
 }
+#global h2{
+	
+	width: 12em;
+	
+}
 #global{
   width:100%;
 }
 #global #gauche {
-    margin: 0px 10px 30px 50px;
+    margin: 0px 10px 30px -10px;
     width:100%;
 }
 #global #droite {
-  margin: 0px 100px 30px 50px;
+  margin: 0px 100px 30px -10px;
 	width:100%; 
 }
 article> aside{
@@ -73,16 +78,23 @@ section[class=pro] article> div{
 
 section[class=pro] article> div> h3{
 
-padding: 70px 100px 0px 0px;
+padding: 70px 100px 0px 10px;
 font-size: 1.3em;
 	
 }
 
 section[class=formation] article> div{
 
-	margin: -20px 100px -30px 10%;
+	margin: -20px 10px -30px -10px;
 
 }
+section[class=formation] article> aside{
+
+	margin: 0px 0px 0px 10px;
+
+}
+
+
 section[class=pro] article> div{
 
 	margin: -10px 100px -30px 10%;
@@ -107,21 +119,28 @@ section[class=formation] article{
 }
 section[class=formation] article p{
 	
-	width: 150%;
+	width: 100%;
 	margin: 0px 0px 0px 0px;
 	
 	
 }
 section[class=pro] article p{
 	
-	width: 150%;
-	margin: 0px 0px 0px 0px;
+	width: 280%;
+	margin: 0px 0px 0px 10px;
+	
+	
+}
+section[class=pro] article h4{
+	
+	width: 280%;
+	margin: 0px 0px 0px 10px;
 	
 	
 }
 section[class=pro] article{
 	
 	width: 100%;
-	margin: 10px 10px 10px 10px;
+	margin: 10px 10px 10px -50px;
 	
 }
